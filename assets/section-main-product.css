@@ -194,6 +194,9 @@ product-info {
   background: #1f47ff 0% 0% no-repeat padding-box;
   border-radius: 3px;
   opacity: 1;
+  /* for typography */
+  font: normal normal 500 18px/22px Montserrat;
+  color: #ffffff;
 }
 
 .product-form__submit[aria-disabled='true'] + .shopify-payment-button .shopify-payment-button__button[disabled],
