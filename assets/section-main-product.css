@@ -328,6 +328,13 @@ a.product__text {
     opacity: 1;
   }
 
+  .price_and_product__tax__container {
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .product__info-container .price--on-sale .price-item--regular {
     font-size: 1.6rem;
   }
@@ -355,7 +362,12 @@ a.product__text {
 }
 
 .product__tax {
-  margin-top: -1.4rem;
+  /* margin-top: -1.4rem; */
+  text-align: left;
+  font: normal normal medium 10px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
 }
 
 .product--no-media .share-button {
