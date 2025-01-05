@@ -191,6 +191,9 @@ product-info {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  background: #1f47ff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
 }
 
 .product-form__submit[aria-disabled='true'] + .shopify-payment-button .shopify-payment-button__button[disabled],
