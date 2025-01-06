@@ -34,6 +34,15 @@
           "type": "quantity_selector",
           "disabled": true,
         },
+        "inventory": {
+          "type": "inventory",
+          "disabled": false,
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 0,
+            "show_inventory_quantity": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -100,6 +109,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "inventory",
         "buy_buttons",
         "description",
         "collapsible-row-0",
