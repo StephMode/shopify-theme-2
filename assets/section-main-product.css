@@ -273,6 +273,15 @@ a.product__text {
   margin: 0;
 }
 
+.product__title > h1 {
+  font: normal normal 550 25px/30px Montserrat;
+  margin-bottom: 12px;
+}
+
+.product__title > h3 {
+  font: normal normal medium 18px/22px Montserrat;
+}
+
 .product__title > a {
   display: none;
 }
