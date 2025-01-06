@@ -43,7 +43,7 @@
         },
         "description": {
           "type": "description",
-          "disabled": "true",
+          "disabled": true,
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
