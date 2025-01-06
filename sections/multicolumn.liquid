@@ -80,6 +80,7 @@
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
                 {% endif %}
+                {% comment %} 💡 this div is for the image in multi column item {% endcomment %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   <div
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
@@ -116,6 +117,10 @@
                         class: 'multicolumn-card__image'
                     }}
                   </div>
+                </div>
+              {%- else -%}
+                <div class="multicolumn-card__image-wrapper--third-width">
+                  {{- 'icon_verified-badge-line.svg' | inline_asset_content -}}
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">

@@ -32,6 +32,7 @@
 
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
+  max-width: 57px;
 }
 
 .multicolumn-card__image-wrapper--half-width {
